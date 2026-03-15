@@ -1,5 +1,59 @@
 [
   {
+    "version": "0.5.0",
+    "date": "2026-03-15",
+    "changes": [
+      {
+        "type": "feature",
+        "description": "好友系统：添加/删除好友、登录时加载好友列表、好友上下线实时通知"
+      },
+      {
+        "type": "feature",
+        "description": "一键换装系统：创建装备预设、一键切换整套装备，支持 Official 和 FullSwap 两种切换策略"
+      },
+      {
+        "type": "feature",
+        "description": "悄悄话（私聊）：向同服玩家发送和接收私聊消息"
+      },
+      {
+        "type": "feature",
+        "description": "一键脱下所有装备"
+      },
+      {
+        "type": "feature",
+        "description": "db/import 模板文件嵌入程序，首次启动时自动释放，无需手动创建"
+      },
+      {
+        "type": "feature",
+        "description": "数据库迁移前检查 MySQL 版本，低于 5.6 时给出明确错误提示"
+      },
+      {
+        "type": "feature",
+        "description": "`_M`/`_F` 自动注册默认值改为启用"
+      },
+      {
+        "type": "feature",
+        "description": "角色名支持中文等多语言字符"
+      },
+      {
+        "type": "fix",
+        "description": "修复弹药（箭矢等）装备后客户端未正确显示的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修正上游数据库中部分装备和怪物数据的错误"
+      },
+      {
+        "type": "fix",
+        "description": "YAML 数据文件出现重复字段时，警告信息中增加文件路径便于定位"
+      },
+      {
+        "type": "improve",
+        "description": "地图缓存加载使用并行解压，启动速度提升约 10 倍"
+      }
+    ]
+  },
+  {
     "version": "0.4.0",
     "date": "2026-03-11",
     "changes": [
