@@ -1,5 +1,43 @@
 [
   {
+    "version": "0.8.0",
+    "date": "2026-03-22",
+    "changes": [
+      {
+        "type": "feature",
+        "description": "引入公式引擎，属性派生公式无需重编译即可自定义（`db/formulas/status.rhai`）"
+      },
+      {
+        "type": "feature",
+        "description": "实现客户端六维属性加点，支持 Renewal / Pre-Renewal 双模式"
+      },
+      {
+        "type": "feature",
+        "description": "新增新角色初始物品配置（`[[char_server.start_items]]` / `[[char_server.start_items_doram]]`）"
+      },
+      {
+        "type": "feature",
+        "description": "新增管理员指令 `@statuspoint`：增减角色可分配属性点数"
+      },
+      {
+        "type": "feature",
+        "description": "新增管理员指令 `@kick`：强制踢指定角色下线"
+      },
+      {
+        "type": "feature",
+        "description": "新增管理员指令 `@servertime`：显示服务器当前时间"
+      },
+      {
+        "type": "feature",
+        "description": "新增管理员指令 `@uptime`：显示服务器运行时长"
+      },
+      {
+        "type": "improve",
+        "description": "`@go` 城镇中文名称更新为台服官方译名，列表改为自适应多列对齐布局"
+      }
+    ]
+  },
+  {
     "version": "0.7.0",
     "date": "2026-03-21",
     "changes": [
