@@ -1,5 +1,35 @@
 [
   {
+    "version": "0.9.0",
+    "date": "2026-03-23",
+    "changes": [
+      {
+        "type": "feature",
+        "description": "新增 `@zeny` 指令：增减角色金币，支持 `reset` 清零和 `max` 拉满到上限，支持选择器批量操作。示例：`@zeny 1000`、`@zeny reset`、`@zeny *party 5000`"
+      },
+      {
+        "type": "feature",
+        "description": "新增 `@cash` 指令：增减账号 Cash Points，支持 `reset`/`max`，支持选择器。示例：`@cash 1000`、`@cash max`"
+      },
+      {
+        "type": "feature",
+        "description": "新增 `@kafra` 指令（别名 `@points`）：增减账号 Kafra Points，支持 `reset`/`max`，支持选择器。示例：`@kafra 1000`、`@kafra reset`"
+      },
+      {
+        "type": "feature",
+        "description": "新增 `@refresh` 指令：将客户端画面状态与服务器重新同步，适用于客户端显示异常（人物消失、属性不同步等）时的快速修复"
+      },
+      {
+        "type": "fix",
+        "description": "修复加点后属性面板短暂闪烁的问题（移除了一次多余的完整面板刷新）"
+      },
+      {
+        "type": "improve",
+        "description": "`@kick` 使用范围选择器（`*all`、`*map`、`*party` 等）批量踢人时，自动跳过 GM 等级玩家，防止误踢管理员"
+      }
+    ]
+  },
+  {
     "version": "0.8.0",
     "date": "2026-03-22",
     "changes": [
