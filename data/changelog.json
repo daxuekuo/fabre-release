@@ -1,5 +1,23 @@
 [
   {
+    "version": "0.11.0",
+    "date": "2026-03-25",
+    "changes": [
+      {
+        "type": "feature",
+        "description": "魔物系统：支持在地图上动态生成魔物，魔物具备随机行走 AI"
+      },
+      {
+        "type": "feature",
+        "description": "新增 `@monster` 指令：在当前位置附近召唤魔物，用法：`@monster <魔物名称或ID> [数量]`，详见 `docs/gm-commands.md`"
+      },
+      {
+        "type": "feature",
+        "description": "表情功能：玩家可在游戏内使用表情动作，表情效果会向周围玩家广播"
+      }
+    ]
+  },
+  {
     "version": "0.10.0",
     "date": "2026-03-24",
     "changes": [
