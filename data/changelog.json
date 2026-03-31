@@ -1,5 +1,35 @@
 [
   {
+    "version": "0.12.0",
+    "date": "2026-03-31",
+    "changes": [
+      {
+        "type": "feature",
+        "description": "战斗配置系统：新增 `[battle.player]` 配置段，支持按职业分类（普通/三转/扩展/召唤师）独立设置 ASPD 上限"
+      },
+      {
+        "type": "feature",
+        "description": "ASPD 攻击速度：实现真实 ASPD 计算公式，替代之前的固定占位值，攻速随装备和职业正确变化"
+      },
+      {
+        "type": "feature",
+        "description": "职业属性数据驱动：职业基础属性（负重上限、基础 ASPD 等）改为从 `db/job_stats.yml` 加载，运营人员可自定义调整"
+      },
+      {
+        "type": "feature",
+        "description": "装备穿戴校验：穿戴装备时检查职业、阶级、等级、性别四项条件；登录和换地图时自动脱下不合法装备"
+      },
+      {
+        "type": "feature",
+        "description": "悄悄话屏蔽：支持屏蔽全部悄悄话和按角色名忽略，屏蔽列表下线后清空（与 rAthena 一致）"
+      },
+      {
+        "type": "fix",
+        "description": "修复发布打包时误包含 `db/import-tmpl` 模板目录"
+      }
+    ]
+  },
+  {
     "version": "0.11.0",
     "date": "2026-03-25",
     "changes": [
