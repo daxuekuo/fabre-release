@@ -1,5 +1,23 @@
 [
   {
+    "version": "0.14.0",
+    "date": "2026-04-02",
+    "changes": [
+      {
+        "type": "feature",
+        "description": "管理员指令 `@hide`：切换隐身/可见状态，隐身后对普通玩家不可见（详见 `docs/gm-commands.md`）"
+      },
+      {
+        "type": "fix",
+        "description": "修复拾取地面物品时角色没有弯腰捡东西动作的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复延迟消耗类物品（如苍蝇翅膀）在客户端被错误显示为装备栏物品的问题"
+      }
+    ]
+  },
+  {
     "version": "0.13.0",
     "date": "2026-04-01",
     "changes": [
