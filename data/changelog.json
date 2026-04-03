@@ -1,5 +1,27 @@
 [
   {
+    "version": "0.15.0",
+    "date": "2026-04-03",
+    "changes": [
+      {
+        "type": "feature",
+        "description": "技能系统：加载技能数据库与技能树，转职和升级时自动重算并同步客户端"
+      },
+      {
+        "type": "feature",
+        "description": "管理员指令 `@jobchange`：切换角色职业，支持职业名称或 ID（详见 `docs/gm-commands.md`）"
+      },
+      {
+        "type": "feature",
+        "description": "管理员指令 `@baselvup`：调整基础等级，自动补发/扣除属性点（详见 `docs/gm-commands.md`）"
+      },
+      {
+        "type": "feature",
+        "description": "管理员指令 `@joblvup`：调整职业等级，自动补发/扣除技能点（详见 `docs/gm-commands.md`）"
+      }
+    ]
+  },
+  {
     "version": "0.14.0",
     "date": "2026-04-02",
     "changes": [
