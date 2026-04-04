@@ -1,5 +1,23 @@
 [
   {
+    "version": "0.16.0",
+    "date": "2026-04-04",
+    "changes": [
+      {
+        "type": "feature",
+        "description": "装备插卡系统：支持将卡片插入装备卡槽，自动校验卡槽、卡片类型及装备位置"
+      },
+      {
+        "type": "feature",
+        "description": "技能加点系统：玩家可在技能树中分配技能点，按职业技能树和前置要求校验"
+      },
+      {
+        "type": "feature",
+        "description": "管理员指令 `@resetstat`：重置六维属性全部归 1，按等级重算可分配属性点（详见 `docs/gm-commands.md`）"
+      }
+    ]
+  },
+  {
     "version": "0.15.0",
     "date": "2026-04-03",
     "changes": [
