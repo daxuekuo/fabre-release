@@ -1,0 +1,871 @@
+{
+  "version": "0.17.0",
+  "groups": [
+    {
+      "name": "登录服务器",
+      "items": [
+        {
+          "title": "M/F 后缀自动注册",
+          "status": "done"
+        },
+        {
+          "title": "多模式密码验证",
+          "status": "done"
+        },
+        {
+          "title": "重复登录顶号",
+          "status": "done"
+        },
+        {
+          "title": "账号封禁检查",
+          "status": "done"
+        },
+        {
+          "title": "客户端哈希校验",
+          "status": "done"
+        },
+        {
+          "title": "登录凭证过期清理",
+          "status": "done"
+        },
+        {
+          "title": "动态 IP 封禁",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "角色服务器",
+      "items": [
+        {
+          "title": "创建角色",
+          "status": "done"
+        },
+        {
+          "title": "删除角色（含预约删除）",
+          "status": "done"
+        },
+        {
+          "title": "角色改名",
+          "status": "done"
+        },
+        {
+          "title": "角色槽位移动",
+          "status": "done"
+        },
+        {
+          "title": "PIN 码系统",
+          "status": "done"
+        },
+        {
+          "title": "角色选择与地图跳转",
+          "status": "done"
+        },
+        {
+          "title": "服务器负载显示",
+          "status": "planned"
+        },
+        {
+          "title": "可选出生地图",
+          "status": "planned"
+        },
+        {
+          "title": "角色操作日志",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 移动",
+      "items": [
+        {
+          "title": "A* 寻路",
+          "status": "done"
+        },
+        {
+          "title": "角色行走",
+          "status": "done"
+        },
+        {
+          "title": "跨地图传送",
+          "status": "done"
+        },
+        {
+          "title": "同地图瞬移",
+          "status": "done"
+        },
+        {
+          "title": "方向变更",
+          "status": "done"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 状态面板",
+      "items": [
+        {
+          "title": "基础状态面板",
+          "status": "done"
+        },
+        {
+          "title": "经验值显示",
+          "status": "done"
+        },
+        {
+          "title": "六维属性加点",
+          "status": "done"
+        },
+        {
+          "title": "四转 Trait 加点",
+          "status": "done"
+        },
+        {
+          "title": "四转 AP 支持",
+          "status": "planned"
+        },
+        {
+          "title": "MaxHP/MaxSP 计算",
+          "status": "planned"
+        },
+        {
+          "title": "被动技能加成",
+          "status": "planned"
+        },
+        {
+          "title": "职业加成（Job Bonus）",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 背包",
+      "items": [
+        {
+          "title": "背包列表呈现",
+          "status": "done"
+        },
+        {
+          "title": "物品拾取",
+          "status": "done"
+        },
+        {
+          "title": "物品丢弃",
+          "status": "done"
+        },
+        {
+          "title": "负重追踪",
+          "status": "done"
+        },
+        {
+          "title": "物品堆叠合并",
+          "status": "done"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 仓库",
+      "items": [
+        {
+          "title": "仓库打开与关闭",
+          "status": "done"
+        },
+        {
+          "title": "仓库列表呈现",
+          "status": "done"
+        },
+        {
+          "title": "背包存入仓库",
+          "status": "done"
+        },
+        {
+          "title": "仓库取出到背包",
+          "status": "done"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 手推车",
+      "items": [
+        {
+          "title": "手推车列表呈现",
+          "status": "planned"
+        },
+        {
+          "title": "背包存入手推车",
+          "status": "planned"
+        },
+        {
+          "title": "手推车取出到背包",
+          "status": "planned"
+        },
+        {
+          "title": "手推车存入仓库",
+          "status": "planned"
+        },
+        {
+          "title": "仓库取出到手推车",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 装备",
+      "items": [
+        {
+          "title": "装备穿戴（含限制判定）",
+          "status": "done"
+        },
+        {
+          "title": "装备脱下",
+          "status": "done"
+        },
+        {
+          "title": "一键脱下全部",
+          "status": "done"
+        },
+        {
+          "title": "装备插卡",
+          "status": "done"
+        },
+        {
+          "title": "备用装备切换",
+          "status": "done"
+        },
+        {
+          "title": "查看他人装备",
+          "status": "done"
+        },
+        {
+          "title": "装备精炼",
+          "status": "planned"
+        },
+        {
+          "title": "时装外观覆盖",
+          "status": "planned"
+        },
+        {
+          "title": "装备脚本执行",
+          "status": "planned"
+        },
+        {
+          "title": "卡片脚本执行",
+          "status": "planned"
+        },
+        {
+          "title": "随机选项脚本",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 交易",
+      "items": [
+        {
+          "title": "发起交易请求",
+          "status": "done"
+        },
+        {
+          "title": "添加物品与 Zeny",
+          "status": "done"
+        },
+        {
+          "title": "锁定与确认交换",
+          "status": "done"
+        },
+        {
+          "title": "断线自动取消",
+          "status": "done"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 聊天",
+      "items": [
+        {
+          "title": "公屏聊天",
+          "status": "done"
+        },
+        {
+          "title": "私聊（密语）",
+          "status": "done"
+        },
+        {
+          "title": "队伍聊天",
+          "status": "done"
+        },
+        {
+          "title": "忽略列表",
+          "status": "done"
+        },
+        {
+          "title": "公会聊天",
+          "status": "planned"
+        },
+        {
+          "title": "聊天室",
+          "status": "planned"
+        },
+        {
+          "title": "GM 广播",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 队伍",
+      "items": [
+        {
+          "title": "创建队伍",
+          "status": "done"
+        },
+        {
+          "title": "邀请入队",
+          "status": "done"
+        },
+        {
+          "title": "踢出队员",
+          "status": "done"
+        },
+        {
+          "title": "转移队长",
+          "status": "done"
+        },
+        {
+          "title": "修改经验/道具分配",
+          "status": "done"
+        },
+        {
+          "title": "队员小地图位置",
+          "status": "done"
+        },
+        {
+          "title": "队员状态同步",
+          "status": "done"
+        },
+        {
+          "title": "队员上下线通知",
+          "status": "done"
+        },
+        {
+          "title": "组队招募系统",
+          "status": "done"
+        },
+        {
+          "title": "经验分享计算",
+          "status": "planned"
+        },
+        {
+          "title": "邀请屏蔽开关",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 好友",
+      "items": [
+        {
+          "title": "添加好友",
+          "status": "done"
+        },
+        {
+          "title": "删除好友",
+          "status": "done"
+        },
+        {
+          "title": "好友上下线通知",
+          "status": "done"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 公会",
+      "items": [
+        {
+          "title": "创建公会",
+          "status": "planned"
+        },
+        {
+          "title": "公会职位配置",
+          "status": "planned"
+        },
+        {
+          "title": "邀请入会",
+          "status": "planned"
+        },
+        {
+          "title": "驱逐成员",
+          "status": "planned"
+        },
+        {
+          "title": "公会图标",
+          "status": "planned"
+        },
+        {
+          "title": "公会图标上传",
+          "status": "planned"
+        },
+        {
+          "title": "成员上下线通知",
+          "status": "planned"
+        },
+        {
+          "title": "公会公告",
+          "status": "planned"
+        },
+        {
+          "title": "公会同盟/敌对",
+          "status": "planned"
+        },
+        {
+          "title": "公会技能",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 魔物",
+      "items": [
+        {
+          "title": "魔物生成",
+          "status": "done"
+        },
+        {
+          "title": "魔物随机行走",
+          "status": "done"
+        },
+        {
+          "title": "主动追击 AI",
+          "status": "planned"
+        },
+        {
+          "title": "魔物攻击判定",
+          "status": "planned"
+        },
+        {
+          "title": "魔物技能",
+          "status": "planned"
+        },
+        {
+          "title": "死亡与掉落",
+          "status": "planned"
+        },
+        {
+          "title": "刷新点配置",
+          "status": "planned"
+        },
+        {
+          "title": "魔物表情",
+          "status": "planned"
+        },
+        {
+          "title": "魔物对白",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 战斗",
+      "items": [
+        {
+          "title": "普攻伤害计算",
+          "status": "planned"
+        },
+        {
+          "title": "属性克制",
+          "status": "planned"
+        },
+        {
+          "title": "体型修正",
+          "status": "planned"
+        },
+        {
+          "title": "暴击判定",
+          "status": "planned"
+        },
+        {
+          "title": "闪避判定",
+          "status": "planned"
+        },
+        {
+          "title": "受击硬直",
+          "status": "planned"
+        },
+        {
+          "title": "复活系统",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 技能",
+      "items": [
+        {
+          "title": "技能树重算",
+          "status": "done"
+        },
+        {
+          "title": "主动技能施放",
+          "status": "planned"
+        },
+        {
+          "title": "地面技能",
+          "status": "planned"
+        },
+        {
+          "title": "辅助技能",
+          "status": "planned"
+        },
+        {
+          "title": "技能冷却",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 增益与减益状态",
+      "items": [
+        {
+          "title": "状态效果框架",
+          "status": "planned"
+        },
+        {
+          "title": "状态施加与移除",
+          "status": "planned"
+        },
+        {
+          "title": "状态持续时间与刷新",
+          "status": "planned"
+        },
+        {
+          "title": "状态属性修正",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 宠物",
+      "items": [
+        {
+          "title": "宠物捕捉",
+          "status": "planned"
+        },
+        {
+          "title": "宠物孵化与归还",
+          "status": "planned"
+        },
+        {
+          "title": "宠物喂食",
+          "status": "planned"
+        },
+        {
+          "title": "宠物亲密度",
+          "status": "planned"
+        },
+        {
+          "title": "宠物装备",
+          "status": "planned"
+        },
+        {
+          "title": "宠物自动喂食",
+          "status": "planned"
+        },
+        {
+          "title": "宠物进化",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 生命体",
+      "items": [
+        {
+          "title": "生命体召唤与消散",
+          "status": "planned"
+        },
+        {
+          "title": "生命体喂食",
+          "status": "planned"
+        },
+        {
+          "title": "生命体技能",
+          "status": "planned"
+        },
+        {
+          "title": "生命体进化与变异",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 佣兵",
+      "items": [
+        {
+          "title": "佣兵雇佣与解雇",
+          "status": "planned"
+        },
+        {
+          "title": "佣兵战斗 AI",
+          "status": "planned"
+        },
+        {
+          "title": "佣兵技能",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 元素精灵",
+      "items": [
+        {
+          "title": "元素精灵召唤与解散",
+          "status": "planned"
+        },
+        {
+          "title": "元素精灵模式切换",
+          "status": "planned"
+        },
+        {
+          "title": "元素精灵技能",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 摆摊与收购",
+      "items": [
+        {
+          "title": "摆摊开设",
+          "status": "planned"
+        },
+        {
+          "title": "摆摊浏览与购买",
+          "status": "planned"
+        },
+        {
+          "title": "收购开设",
+          "status": "planned"
+        },
+        {
+          "title": "收购浏览与出售",
+          "status": "planned"
+        },
+        {
+          "title": "搜索商店",
+          "status": "planned"
+        },
+        {
+          "title": "离线挂店",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 现金商城",
+      "items": [
+        {
+          "title": "商城界面",
+          "status": "planned"
+        },
+        {
+          "title": "道具购买",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 副本",
+      "items": [
+        {
+          "title": "副本创建与销毁",
+          "status": "planned"
+        },
+        {
+          "title": "副本地图生成",
+          "status": "planned"
+        },
+        {
+          "title": "副本进入限制",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 任务与成就",
+      "items": [
+        {
+          "title": "任务接取与完成",
+          "status": "planned"
+        },
+        {
+          "title": "任务追踪显示",
+          "status": "planned"
+        },
+        {
+          "title": "成就系统",
+          "status": "planned"
+        },
+        {
+          "title": "称号系统",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 邮件（传统 + RODEX）",
+      "items": [
+        {
+          "title": "发送与接收邮件",
+          "status": "planned"
+        },
+        {
+          "title": "附件道具与 Zeny",
+          "status": "planned"
+        },
+        {
+          "title": "未读邮件通知",
+          "status": "planned"
+        },
+        {
+          "title": "邮件过期与删除",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · NPC 商店",
+      "items": [
+        {
+          "title": "普通商店（买卖）",
+          "status": "planned"
+        },
+        {
+          "title": "现金点商店",
+          "status": "planned"
+        },
+        {
+          "title": "道具货币商店",
+          "status": "planned"
+        },
+        {
+          "title": "点数变量商店",
+          "status": "planned"
+        },
+        {
+          "title": "限量商店（库存持久化）",
+          "status": "planned"
+        },
+        {
+          "title": "以物换物商店",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 其他系统",
+      "items": [
+        {
+          "title": "日夜循环",
+          "status": "planned"
+        },
+        {
+          "title": "氏族系统",
+          "status": "planned"
+        },
+        {
+          "title": "战场系统",
+          "status": "planned"
+        },
+        {
+          "title": "天气特效",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "基础框架",
+      "items": [
+        {
+          "title": "单进程架构",
+          "status": "done"
+        },
+        {
+          "title": "MySQL/SQLite 双数据库",
+          "status": "done"
+        },
+        {
+          "title": "分层配置系统",
+          "status": "done"
+        },
+        {
+          "title": "终端彩色日志",
+          "status": "done"
+        },
+        {
+          "title": "文件日志轮转",
+          "status": "done"
+        },
+        {
+          "title": "公式引擎（rhai）",
+          "status": "done"
+        },
+        {
+          "title": "游戏数据加载（YAML）",
+          "status": "done"
+        },
+        {
+          "title": "GAT 地图文件读取",
+          "status": "done"
+        },
+        {
+          "title": "管理员指令框架",
+          "status": "done"
+        },
+        {
+          "title": "Bonus 系统",
+          "status": "planned"
+        },
+        {
+          "title": "地图标记系统",
+          "status": "planned"
+        },
+        {
+          "title": "NPC 脚本引擎",
+          "status": "planned"
+        },
+        {
+          "title": "脚本变量存储",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "Web 服务器",
+      "items": [
+        {
+          "title": "JWT 认证",
+          "status": "done"
+        },
+        {
+          "title": "组队信息查询",
+          "status": "done"
+        },
+        {
+          "title": "角色配置读写",
+          "status": "done"
+        },
+        {
+          "title": "用户配置读写",
+          "status": "done"
+        },
+        {
+          "title": "公会图标接口",
+          "status": "planned"
+        },
+        {
+          "title": "离线挂店数据接口",
+          "status": "planned"
+        }
+      ]
+    }
+  ]
+}
