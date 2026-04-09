@@ -1,5 +1,5 @@
 {
-  "version": "0.17.0",
+  "version": "0.18.0",
   "groups": [
     {
       "name": "登录服务器",
@@ -26,6 +26,10 @@
         },
         {
           "title": "登录凭证过期清理",
+          "status": "done"
+        },
+        {
+          "title": "可信网络自动提权",
           "status": "done"
         },
         {
@@ -180,6 +184,10 @@
         {
           "title": "仓库取出到背包",
           "status": "done"
+        },
+        {
+          "title": "公会仓库",
+          "status": "done"
         }
       ]
     },
@@ -236,7 +244,23 @@
           "status": "done"
         },
         {
-          "title": "装备精炼",
+          "title": "精炼值增减（经典）",
+          "status": "in-progress"
+        },
+        {
+          "title": "精炼 UI（Refine UI）",
+          "status": "in-progress"
+        },
+        {
+          "title": "装备升阶（Enchantgrade）",
+          "status": "planned"
+        },
+        {
+          "title": "装备改造（Item Reform）",
+          "status": "planned"
+        },
+        {
+          "title": "套装组合效果（Item Combo）",
           "status": "planned"
         },
         {
@@ -299,11 +323,11 @@
         },
         {
           "title": "公会聊天",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "聊天室",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "GM 广播",
@@ -381,43 +405,47 @@
       "name": "地图服务器 · 公会",
       "items": [
         {
-          "title": "创建公会",
-          "status": "planned"
+          "title": "创建与解散公会",
+          "status": "done"
         },
         {
-          "title": "公会职位配置",
-          "status": "planned"
+          "title": "公会信息展示",
+          "status": "done"
         },
         {
-          "title": "邀请入会",
-          "status": "planned"
+          "title": "邀请与加入",
+          "status": "done"
         },
         {
-          "title": "驱逐成员",
-          "status": "planned"
+          "title": "离开与驱逐成员",
+          "status": "done"
         },
         {
-          "title": "公会图标",
-          "status": "planned"
+          "title": "公会设置管理（职位/公告）",
+          "status": "done"
         },
         {
-          "title": "公会图标上传",
-          "status": "planned"
+          "title": "公会徽章",
+          "status": "done"
         },
         {
-          "title": "成员上下线通知",
-          "status": "planned"
+          "title": "成员状态同步",
+          "status": "done"
         },
         {
-          "title": "公会公告",
-          "status": "planned"
+          "title": "联盟与敌对",
+          "status": "in-progress"
         },
         {
-          "title": "公会同盟/敌对",
+          "title": "公会经验",
           "status": "planned"
         },
         {
           "title": "公会技能",
+          "status": "planned"
+        },
+        {
+          "title": "城战系统",
           "status": "planned"
         }
       ]
@@ -522,7 +550,7 @@
       ]
     },
     {
-      "name": "地图服务器 · 增益与减益状态",
+      "name": "地图服务器 · 增益与减益",
       "items": [
         {
           "title": "状态效果框架",
@@ -660,15 +688,58 @@
       ]
     },
     {
+      "name": "地图服务器 · 附魔",
+      "items": [
+        {
+          "title": "道具附魔（Item Enchant）",
+          "status": "planned"
+        },
+        {
+          "title": "精灵合成箱（Laphine Synthesis）",
+          "status": "planned"
+        },
+        {
+          "title": "精灵升级（Laphine Upgrade）",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 制造",
+      "items": [
+        {
+          "title": "制造系统（锻造/药水/料理/符文石）",
+          "status": "planned"
+        },
+        {
+          "title": "制造 UI 界面（四转后期）",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 道具组",
+      "items": [
+        {
+          "title": "道具箱（Item Group，随机开箱）",
+          "status": "planned"
+        },
+        {
+          "title": "道具包裹（Item Packages，多重奖励）",
+          "status": "planned"
+        }
+      ]
+    },
+    {
       "name": "地图服务器 · 现金商城",
       "items": [
         {
           "title": "商城界面",
-          "status": "planned"
+          "status": "in-progress"
         },
         {
           "title": "道具购买",
-          "status": "planned"
+          "status": "in-progress"
         }
       ]
     },
@@ -761,6 +832,31 @@
       ]
     },
     {
+      "name": "地图服务器 · 表情",
+      "items": [
+        {
+          "title": "经典表情收发",
+          "status": "done"
+        },
+        {
+          "title": "新客户端扩展表情封包",
+          "status": "done"
+        },
+        {
+          "title": "表情包商城",
+          "status": "planned"
+        },
+        {
+          "title": "表情包解锁与绑定",
+          "status": "planned"
+        },
+        {
+          "title": "限时与租期表情包",
+          "status": "planned"
+        }
+      ]
+    },
+    {
       "name": "地图服务器 · 其他系统",
       "items": [
         {
@@ -834,7 +930,7 @@
         },
         {
           "title": "脚本变量存储",
-          "status": "planned"
+          "status": "in-progress"
         }
       ]
     },
@@ -842,7 +938,7 @@
       "name": "Web 服务器",
       "items": [
         {
-          "title": "JWT 认证",
+          "title": "Token 认证",
           "status": "done"
         },
         {
@@ -859,11 +955,11 @@
         },
         {
           "title": "公会图标接口",
-          "status": "planned"
+          "status": "done"
         },
         {
-          "title": "离线挂店数据接口",
-          "status": "planned"
+          "title": "商人商店配置读写",
+          "status": "done"
         }
       ]
     }
