@@ -1,5 +1,23 @@
 [
   {
+    "version": "0.19.0",
+    "date": "2026-04-12",
+    "changes": [
+      {
+        "type": "feature",
+        "description": "新增繁体中文（zh-TW）系统语言支持，启动日志、GM 指令反馈、错误提示等均可显示繁体中文"
+      },
+      {
+        "type": "feature",
+        "description": "新增语言自动选择：`config.toml` 的 `[i18n]` 配置段支持 `locale = \"auto\"`，服务器将根据系统环境自动选择显示语言"
+      },
+      {
+        "type": "improve",
+        "description": "优化启动日志排版：术语措辞规范化，配置加载报告精简并移至 banner 之后显示，日志更简洁易读"
+      }
+    ]
+  },
+  {
     "version": "0.18.0",
     "date": "2026-04-09",
     "changes": [
