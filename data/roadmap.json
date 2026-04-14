@@ -1,5 +1,5 @@
 {
-  "version": "0.19.0",
+  "version": "0.20.0",
   "groups": [
     {
       "name": "登录服务器",
@@ -249,7 +249,7 @@
         },
         {
           "title": "精炼 UI（Refine UI）",
-          "status": "in-progress"
+          "status": "done"
         },
         {
           "title": "装备升阶（Enchantgrade）",
@@ -731,15 +731,19 @@
       ]
     },
     {
-      "name": "地图服务器 · 现金商城",
+      "name": "地图服务器 · SE 道具商城",
       "items": [
         {
           "title": "商城界面",
-          "status": "in-progress"
+          "status": "done"
         },
         {
           "title": "道具购买",
-          "status": "in-progress"
+          "status": "done"
+        },
+        {
+          "title": "特卖系统",
+          "status": "planned"
         }
       ]
     },
@@ -810,7 +814,7 @@
           "status": "planned"
         },
         {
-          "title": "现金点商店",
+          "title": "NPC 道具商城",
           "status": "planned"
         },
         {
