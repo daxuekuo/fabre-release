@@ -1,5 +1,55 @@
 [
   {
+    "version": "0.21.0",
+    "date": "2026-04-20",
+    "changes": [
+      {
+        "type": "feature",
+        "description": "权限组系统：通过 `conf/groups.toml` 配置权限组，支持层级继承与权限覆盖（详见 `docs/permissions.md`）"
+      },
+      {
+        "type": "feature",
+        "description": "变量表体系：支持角色变量、账号变量、全局变量的运行时存储与持久化，为脚本引擎奠定数据基础"
+      },
+      {
+        "type": "feature",
+        "description": "宠物系统：支持宠物孵化、喂养、亲密度、改名等完整生命周期管理"
+      },
+      {
+        "type": "feature",
+        "description": "公会联盟与敌对：支持公会间建立联盟或宣战敌对关系"
+      },
+      {
+        "type": "feature",
+        "description": "道具使用：使用道具时会给出提示反馈（实际效果待后续版本实装）"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@hatch` 管理员指令：打开宠物蛋孵化选择界面"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@pethungry` 管理员指令：调整当前宠物的饱食度（0-100）"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@petfriendly` 管理员指令：调整当前宠物的亲密度（0-1000）"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@petrename` 管理员指令：重置宠物改名标记，允许再次改名"
+      },
+      {
+        "type": "fix",
+        "description": "修复创建或解散公会后，其他玩家看不到公会名称变更的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复通过游戏内正常流程创建公会时，缺少华丽金属（Emperium）检查与消耗的问题"
+      }
+    ]
+  },
+  {
     "version": "0.20.0",
     "date": "2026-04-14",
     "changes": [

@@ -1,5 +1,5 @@
 {
-  "version": "0.20.0",
+  "version": "0.21.0",
   "groups": [
     {
       "name": "登录服务器",
@@ -434,7 +434,7 @@
         },
         {
           "title": "联盟与敌对",
-          "status": "in-progress"
+          "status": "done"
         },
         {
           "title": "公会经验",
@@ -575,30 +575,46 @@
       "items": [
         {
           "title": "宠物捕捉",
-          "status": "planned"
+          "status": "done"
         },
         {
-          "title": "宠物孵化与归还",
-          "status": "planned"
+          "title": "宠物孵化",
+          "status": "done"
+        },
+        {
+          "title": "宠物归还",
+          "status": "done"
+        },
+        {
+          "title": "宠物跟随移动",
+          "status": "done"
+        },
+        {
+          "title": "宠物属性面板",
+          "status": "done"
         },
         {
           "title": "宠物喂食",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "宠物亲密度",
-          "status": "planned"
+          "status": "done"
+        },
+        {
+          "title": "宠物改名与表情",
+          "status": "done"
         },
         {
           "title": "宠物装备",
-          "status": "planned"
-        },
-        {
-          "title": "宠物自动喂食",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "宠物进化",
+          "status": "done"
+        },
+        {
+          "title": "宠物自动喂食",
           "status": "planned"
         }
       ]
@@ -861,6 +877,31 @@
       ]
     },
     {
+      "name": "地图服务器 · 签到系统",
+      "items": [
+        {
+          "title": "签到数据库加载",
+          "status": "planned"
+        },
+        {
+          "title": "签到 UI 开启与进度查询",
+          "status": "planned"
+        },
+        {
+          "title": "签到奖励领取（邮件投递）",
+          "status": "planned"
+        },
+        {
+          "title": "登录自动弹出签到 UI",
+          "status": "planned"
+        },
+        {
+          "title": "签到跨期重置",
+          "status": "planned"
+        }
+      ]
+    },
+    {
       "name": "地图服务器 · 其他系统",
       "items": [
         {
@@ -921,6 +962,10 @@
           "status": "done"
         },
         {
+          "title": "权限组系统",
+          "status": "done"
+        },
+        {
           "title": "Bonus 系统",
           "status": "planned"
         },
@@ -933,8 +978,8 @@
           "status": "planned"
         },
         {
-          "title": "脚本变量存储",
-          "status": "in-progress"
+          "title": "变量表体系",
+          "status": "done"
         }
       ]
     },
