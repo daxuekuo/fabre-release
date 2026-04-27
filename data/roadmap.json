@@ -1,5 +1,5 @@
 {
-  "version": "0.21.0",
+  "version": "0.22.0",
   "groups": [
     {
       "name": "登录服务器",
@@ -806,19 +806,19 @@
       "items": [
         {
           "title": "发送与接收邮件",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "附件道具与 Zeny",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "未读邮件通知",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "邮件过期与删除",
-          "status": "planned"
+          "status": "done"
         }
       ]
     },
@@ -918,7 +918,7 @@
         },
         {
           "title": "天气特效",
-          "status": "planned"
+          "status": "done"
         }
       ]
     },
@@ -971,7 +971,7 @@
         },
         {
           "title": "地图标记系统",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "NPC 脚本引擎",

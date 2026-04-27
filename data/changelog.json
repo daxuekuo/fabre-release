@@ -1,5 +1,71 @@
 [
   {
+    "version": "0.22.0",
+    "date": "2026-04-27",
+    "changes": [
+      {
+        "type": "feature",
+        "description": "实装 RODEX 邮件系统：游戏内邮件的收发、附件、未读通知与到期清理流程"
+      },
+      {
+        "type": "feature",
+        "description": "实装地图标记系统：可对每张地图独立设置规则（详见 `docs/mapflags.md`）"
+      },
+      {
+        "type": "feature",
+        "description": "新增地图标记限制类标记：`nochatroom`、`nosave`、`notrade`、`nodrop`、`nocashshop`、`norodex`"
+      },
+      {
+        "type": "feature",
+        "description": "新增地图标记战斗与经济类标记：`pvp`、`gvg`、`bexp`"
+      },
+      {
+        "type": "feature",
+        "description": "新增地图标记天气类标记：`snow`、`fog`、`sakura`、`leaves`、`clouds`、`clouds2`、`fireworks`"
+      },
+      {
+        "type": "feature",
+        "description": "新增 `@setmapflag` / `@getmapflag` / `@removemapflag` 管理员指令：用于管理地图标记"
+      },
+      {
+        "type": "feature",
+        "description": "实装快捷键栏持久化：玩家自定义的快捷键栏在登出后保留，重新登录自动恢复"
+      },
+      {
+        "type": "feature",
+        "description": "支持 20151029 客户端的连接、登录与游戏体验"
+      },
+      {
+        "type": "feature",
+        "description": "新增 `@snow` / `@sakura` / `@clouds` 等管理员指令：切换当前地图的对应天气特效"
+      },
+      {
+        "type": "feature",
+        "description": "新增 `@clearweather` 管理员指令：清除当前地图的全部天气特效"
+      },
+      {
+        "type": "feature",
+        "description": "新增 `@effect <特效ID>` 管理员指令：在执行者位置播放一个客户端特效"
+      },
+      {
+        "type": "feature",
+        "description": "新增 `@sound <文件名>` 管理员指令：在当前地图广播一个音效"
+      },
+      {
+        "type": "fix",
+        "description": "修复部分新版客户端 (20211117) 进入游戏后无法使用快捷键的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复已改名宠物在进化后名字被错误重置为新形态默认名"
+      },
+      {
+        "type": "improve",
+        "description": "修正部分场景下宠物追击玩家时落点偏离目标的问题"
+      }
+    ]
+  },
+  {
     "version": "0.21.0",
     "date": "2026-04-20",
     "changes": [
@@ -175,7 +241,7 @@
       },
       {
         "type": "feature",
-        "description": "管理员指令 `@resetstat`：重置六维属性全部归 1，按等级重算可分配属性点（详见 `docs/gm-commands.md`）"
+        "description": "管理员指令 `@resetstat`：重置六维属性全部归 1，按等级重算可分配属性点（详见 `docs/atcommands.md`）"
       }
     ]
   },
@@ -189,15 +255,15 @@
       },
       {
         "type": "feature",
-        "description": "管理员指令 `@jobchange`：切换角色职业，支持职业名称或 ID（详见 `docs/gm-commands.md`）"
+        "description": "管理员指令 `@jobchange`：切换角色职业，支持职业名称或 ID（详见 `docs/atcommands.md`）"
       },
       {
         "type": "feature",
-        "description": "管理员指令 `@baselvup`：调整基础等级，自动补发/扣除属性点（详见 `docs/gm-commands.md`）"
+        "description": "管理员指令 `@baselvup`：调整基础等级，自动补发/扣除属性点（详见 `docs/atcommands.md`）"
       },
       {
         "type": "feature",
-        "description": "管理员指令 `@joblvup`：调整职业等级，自动补发/扣除技能点（详见 `docs/gm-commands.md`）"
+        "description": "管理员指令 `@joblvup`：调整职业等级，自动补发/扣除技能点（详见 `docs/atcommands.md`）"
       }
     ]
   },
@@ -207,7 +273,7 @@
     "changes": [
       {
         "type": "feature",
-        "description": "管理员指令 `@hide`：切换隐身/可见状态，隐身后对普通玩家不可见（详见 `docs/gm-commands.md`）"
+        "description": "管理员指令 `@hide`：切换隐身/可见状态，隐身后对普通玩家不可见（详见 `docs/atcommands.md`）"
       },
       {
         "type": "fix",
@@ -273,7 +339,7 @@
       },
       {
         "type": "feature",
-        "description": "新增 `@monster` 指令：在当前位置附近召唤魔物，用法：`@monster <魔物名称或ID> [数量]`，详见 `docs/gm-commands.md`"
+        "description": "新增 `@monster` 指令：在当前位置附近召唤魔物，用法：`@monster <魔物名称或ID> [数量]`，详见 `docs/atcommands.md`"
       },
       {
         "type": "feature",
@@ -377,7 +443,7 @@
     "changes": [
       {
         "type": "feature",
-        "description": "新增管理员指令手册，详细记录所有指令的用法与参数说明（详见 `docs/gm-commands.md`）"
+        "description": "新增管理员指令手册，详细记录所有指令的用法与参数说明（详见 `docs/atcommands.md`）"
       },
       {
         "type": "feature",
