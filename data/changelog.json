@@ -1,5 +1,43 @@
 [
   {
+    "version": "0.23.0",
+    "date": "2026-04-28",
+    "changes": [
+      {
+        "type": "feature",
+        "description": "昼夜循环系统：服务器按周期自动切换昼夜"
+      },
+      {
+        "type": "feature",
+        "description": "角色主动保存机制：在线玩家存档定期落盘，关服时全员保存"
+      },
+      {
+        "type": "feature",
+        "description": "新增 `nightenabled` 地图标记：控制单张地图是否参与夜晚视觉同步"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@day` 管理员指令：将服务器切换为白天"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@night` 管理员指令：将服务器切换为夜晚"
+      },
+      {
+        "type": "fix",
+        "description": "修复 `@save` 设置后未立即落盘，服务器异常退出时重生点会丢失的问题"
+      },
+      {
+        "type": "improve",
+        "description": "重组 `conf/config.toml` 配置布局（不兼容变更）：自定义过配置的用户请参考新版重写"
+      },
+      {
+        "type": "improve",
+        "description": "优化 `@mapflag` 管理员指令：同时给出名称和值时可直接设置该地图标记，兼容 rAthena 写法"
+      }
+    ]
+  },
+  {
     "version": "0.22.0",
     "date": "2026-04-27",
     "changes": [
