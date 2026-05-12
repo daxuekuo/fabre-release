@@ -1,5 +1,5 @@
 {
-  "version": "0.23.0",
+  "version": "0.24.0",
   "groups": [
     {
       "name": "登录服务器",
@@ -479,7 +479,7 @@
         },
         {
           "title": "刷新点配置",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "魔物表情",
@@ -906,7 +906,7 @@
       "items": [
         {
           "title": "日夜循环",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "氏族系统",
@@ -974,12 +974,109 @@
           "status": "done"
         },
         {
-          "title": "NPC 脚本引擎",
-          "status": "planned"
-        },
-        {
           "title": "变量表体系",
           "status": "done"
+        }
+      ]
+    },
+    {
+      "name": "脚本引擎",
+      "items": [
+        {
+          "title": "脚本解析与编译",
+          "status": "done"
+        },
+        {
+          "title": "脚本运行时",
+          "status": "done"
+        },
+        {
+          "title": "NPC 文件加载",
+          "status": "done"
+        },
+        {
+          "title": "对话框 / 菜单 / 输入",
+          "status": "done"
+        },
+        {
+          "title": "sleep 脚本等待",
+          "status": "done"
+        },
+        {
+          "title": "脚本上下文限制",
+          "status": "done"
+        },
+        {
+          "title": "死循环熔断",
+          "status": "done"
+        },
+        {
+          "title": "bonus_script 框架",
+          "status": "done"
+        },
+        {
+          "title": "编译错误诊断",
+          "status": "done"
+        },
+        {
+          "title": "运行时错误提示",
+          "status": "done"
+        },
+        {
+          "title": "脚本检查工具",
+          "status": "done"
+        },
+        {
+          "title": "兼容性覆盖率统计",
+          "status": "done"
+        },
+        {
+          "title": "rAthena 脚本资产导入",
+          "status": "done"
+        },
+        {
+          "title": "内置指令集",
+          "status": "in-progress"
+        },
+        {
+          "title": "角色生命周期事件（OnPCLogin 等）",
+          "status": "in-progress"
+        },
+        {
+          "title": "NPC 生命周期事件（OnInit）",
+          "status": "in-progress"
+        },
+        {
+          "title": "区域触发事件（OnTouch）",
+          "status": "in-progress"
+        },
+        {
+          "title": "NPC 定时器（OnTimer）",
+          "status": "done"
+        },
+        {
+          "title": "时钟事件（OnMinute/OnHour）",
+          "status": "in-progress"
+        },
+        {
+          "title": "角色变量持久化接入（无前缀）",
+          "status": "done"
+        },
+        {
+          "title": "账号变量持久化接入（`#` / `##`）",
+          "status": "done"
+        },
+        {
+          "title": "全局变量持久化接入（`$` / `$@`）",
+          "status": "done"
+        },
+        {
+          "title": "goto / continue 语法",
+          "status": "done"
+        },
+        {
+          "title": "增量编译与热重载",
+          "status": "in-progress"
         }
       ]
     },

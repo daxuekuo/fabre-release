@@ -1,5 +1,47 @@
 [
   {
+    "version": "0.24.0",
+    "date": "2026-05-12",
+    "changes": [
+      {
+        "type": "feature",
+        "description": "初步实装脚本引擎"
+      },
+      {
+        "type": "feature",
+        "description": "实装 `/memo` 传送点记忆系统：玩家可使用 `/memo` 记录当前位置作为传送点"
+      },
+      {
+        "type": "feature",
+        "description": "脚本编译失败的 NPC 在游戏内挂常驻视觉特效，便于 GM 巡场识别问题"
+      },
+      {
+        "type": "feature",
+        "description": "新增 `nomemo` 地图标记：禁止在当前地图使用 `/memo` 记录传送点（详见 `docs/mapflags.md`）"
+      },
+      {
+        "type": "feature",
+        "description": "新增 `@killmonster` 系列管理员指令：清除当前地图所有魔物（详见 `docs/atcommands.md`）"
+      },
+      {
+        "type": "feature",
+        "description": "新增 `mob_respawn_time` 战斗配置项：统一管理魔物刷新间隔"
+      },
+      {
+        "type": "fix",
+        "description": "修复过期邮件清理路径被可见性过滤吞掉，导致已删除邮件无法被定时清理"
+      },
+      {
+        "type": "improve",
+        "description": "大幅优化魔物 / 宠物 AI 与寻路调度：大型服务器在大量魔物刷新场景下 CPU 占用显著下降"
+      },
+      {
+        "type": "improve",
+        "description": "重新排版 `conf/groups.toml`（不兼容变更）：自定义过权限组配置的用户请参考新版重写"
+      }
+    ]
+  },
+  {
     "version": "0.23.0",
     "date": "2026-04-28",
     "changes": [
