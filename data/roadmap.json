@@ -1,5 +1,5 @@
 {
-  "version": "0.25.0",
+  "version": "0.26.0",
   "groups": [
     {
       "name": "登录服务器",
@@ -827,27 +827,43 @@
       "items": [
         {
           "title": "普通商店（买卖）",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "NPC 道具商城",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "道具货币商店",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "点数变量商店",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "限量商店（库存持久化）",
-          "status": "planned"
+          "status": "done"
         },
         {
-          "title": "以物换物商店",
-          "status": "planned"
+          "title": "以物易物商店",
+          "status": "done"
+        },
+        {
+          "title": "多货币以物易物商店",
+          "status": "done"
+        },
+        {
+          "title": "商店宠物蛋买卖",
+          "status": "done"
+        },
+        {
+          "title": "商店开张公告（itemshop / pointshop）",
+          "status": "done"
+        },
+        {
+          "title": "barter 数据库热重载",
+          "status": "done"
         }
       ]
     },

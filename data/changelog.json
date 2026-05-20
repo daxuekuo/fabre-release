@@ -1,5 +1,95 @@
 [
   {
+    "version": "0.26.0",
+    "date": "2026-05-20",
+    "changes": [
+      {
+        "type": "feature",
+        "description": "实现 NPC 商店系统: 常规 / 现金 / 物品 / 点数 / 集市 / 以物易物等多品类买卖"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `callshop` 脚本指令: 由脚本主动唤出 NPC 商店, 区分玩家 / 脚本入口"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@reloadbarterdb` 管理员指令: 热重载以物易物数据库"
+      },
+      {
+        "type": "feature",
+        "description": "实现 NPC `OnTouch` 派发: 玩家步进 / 进图 / 魔物经过自动触发对应事件标签"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `mapid2name`, `mapname2id` 脚本指令: 地图 ID 与名称互转"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `explode`, `implode` 脚本指令: 字符串按分隔符拆分 / 重组"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `strtoupper`, `strtolower` 脚本指令: 字符串大小写互转"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `strcmp`, `strpos`, `replacestr`, `countstr` 脚本指令: 比较 / 定位 / 替换 / 统计"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `setchar`, `insertchar`, `delchar` 脚本指令: 按字符粒度修改字符串"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `charisalpha`, `charisupper`, `charislower` 脚本指令: 判定字符属性"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `md5`, `axtoi`, `strtol` 脚本指令: 摘要 / 进制字符串转整数"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `gettime`, `gettimetick`, `gettimestr` 脚本指令: 时间字段读取与格式化"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `sqrt`, `pow`, `cap_value`, `round`, `ceil`, `floor` 脚本指令: 数学运算"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `max`, `min`, `distance` 脚本指令: 取较大 / 较小值与坐标距离"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `debugmes`, `errormes`, `logmes` 脚本指令: 服务端日志多级输出"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `is_function` 脚本指令: 判断脚本函数是否已定义"
+      },
+      {
+        "type": "fix",
+        "description": "修复选角时无可用 Map 服务器导致客户端卡死的问题"
+      },
+      {
+        "type": "improve",
+        "description": "优化 NPC 启动加载: 唯一名反查改 O(1) 索引, OnInit 启动提速约 49 倍"
+      },
+      {
+        "type": "improve",
+        "description": "优化脚本编译: 第一遍编译并行化, 启动提速约 1 秒"
+      },
+      {
+        "type": "improve",
+        "description": "优化魔物刷新启动: 启动期跳过无玩家地图的冗余发包并精简日志"
+      },
+      {
+        "type": "improve",
+        "description": "优化启动期日志: 输出整体耗时, 统一阶段耗时单位, NPC 加载按分类汇总"
+      }
+    ]
+  },
+  {
     "version": "0.25.0",
     "date": "2026-05-13",
     "changes": [
