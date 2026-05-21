@@ -1,5 +1,5 @@
 {
-  "version": "0.26.0",
+  "version": "0.27.0",
   "groups": [
     {
       "name": "登录服务器",
@@ -781,18 +781,79 @@
       ]
     },
     {
-      "name": "地图服务器 · 任务与成就",
+      "name": "地图服务器 · 任务",
       "items": [
         {
+          "title": "任务数据库加载",
+          "status": "done"
+        },
+        {
+          "title": "玩家任务持久化",
+          "status": "done"
+        },
+        {
           "title": "任务接取与完成",
+          "status": "done"
+        },
+        {
+          "title": "任务删除与切换",
+          "status": "done"
+        },
+        {
+          "title": "任务进度同步",
+          "status": "done"
+        },
+        {
+          "title": "登录任务列表推送",
+          "status": "done"
+        },
+        {
+          "title": "魔物击杀进度联动",
+          "status": "done"
+        },
+        {
+          "title": "任务脚本指令",
+          "status": "done"
+        },
+        {
+          "title": "NPC 头顶任务标记",
+          "status": "done"
+        },
+        {
+          "title": "任务管理 GM 指令",
+          "status": "done"
+        },
+        {
+          "title": "任务日志窗口打开",
+          "status": "done"
+        },
+        {
+          "title": "任务专属掉落",
           "status": "planned"
         },
         {
-          "title": "任务追踪显示",
+          "title": "副本任务地图匹配",
           "status": "planned"
         },
         {
-          "title": "成就系统",
+          "title": "成就联动条件求值",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 成就与称号",
+      "items": [
+        {
+          "title": "成就数据库加载",
+          "status": "planned"
+        },
+        {
+          "title": "成就达成判定与奖励",
+          "status": "planned"
+        },
+        {
+          "title": "成就 UI 与进度同步",
           "status": "planned"
         },
         {

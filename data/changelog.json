@@ -1,5 +1,39 @@
 [
   {
+    "version": "0.27.0",
+    "date": "2026-05-21",
+    "changes": [
+      {
+        "type": "feature",
+        "description": "实现任务系统: 任务接受 / 进度跟踪 / 完成 / 放弃, 配合 `db/quest_db.yml` 数据库"
+      },
+      {
+        "type": "feature",
+        "description": "实现 NPC 头顶任务标记: 在 NPC 上方显示可接 / 已完成等任务图标"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `setquest`, `erasequest`, `completequest`, `changequest`, `checkquest`, `isbegin_quest` 脚本指令: 管理玩家任务进度"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `questinfo`, `questinfo_refresh`, `showevent`, `open_quest_ui` 脚本指令: 控制 NPC 任务标记与任务窗口"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@setquest`, `@erasequest`, `@completequest`, `@checkquest` 管理员指令: 手动调整玩家任务进度"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@reloadquestdb` 管理员指令: 热重载任务数据库"
+      },
+      {
+        "type": "improve",
+        "description": "优化启动日志: 脚本常量注册行按当前语言显示, 措辞更简洁"
+      }
+    ]
+  },
+  {
     "version": "0.26.0",
     "date": "2026-05-20",
     "changes": [
