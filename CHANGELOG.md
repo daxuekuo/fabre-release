@@ -1,5 +1,25 @@
 # 更新日志
 
+## v0.28.0 (2026-05-22)
+
+### 新增
+
+- 实现 `cloakonnpc`, `cloakoffnpc`, `cloakonnpcself`, `cloakoffnpcself`, `isnpccloaked` 脚本指令: NPC 视觉隐身的全局 / 单玩家控制
+- 实现 `hideonnpc`, `hideoffnpc` 脚本指令: 视觉级隐藏 / 显示 NPC 而保留脚本可访问
+- 实现 `specialeffect`, `specialeffect2`, `removespecialeffect`, `removespecialeffect2` 脚本指令: 触发与移除单位特效
+- 实现 `EF_*` 与 `ET_*` 脚本常量: 1128 个特效 ID 与 88 个表情 ID 可在脚本中直接引用
+- 实现 `getiteminfo`, `setiteminfo`, `getmonsterinfo` 脚本指令: 查询与运行时调整物品 / 魔物数据
+- 实现 `getnpcid` 脚本指令: 按 NPC 名取得对应 GID
+
+### 修复
+
+- 修复 `@fireworks`, `@leaves` 等天气特效指令显示与名称不符特效的问题
+- 修复 `@effect` 管理员指令对编号 0 特效误判越界的问题
+
+### 优化
+
+- 优化日志与界面文案: 角色编号 / 账号编号等标识符显示为可读名
+
 ## v0.27.0 (2026-05-21)
 
 ### 新增

@@ -1,5 +1,5 @@
 {
-  "version": "0.27.0",
+  "version": "0.28.0",
   "groups": [
     {
       "name": "登录服务器",
@@ -923,7 +923,7 @@
           "status": "done"
         },
         {
-          "title": "barter 数据库热重载",
+          "title": "以物易物数据库热重载",
           "status": "done"
         }
       ]
@@ -1039,6 +1039,10 @@
           "status": "done"
         },
         {
+          "title": "管理员指令集 120/313",
+          "status": "in-progress"
+        },
+        {
           "title": "权限组系统",
           "status": "done"
         },
@@ -1112,20 +1116,20 @@
           "status": "done"
         },
         {
-          "title": "内置指令集",
+          "title": "内置指令集 116/670",
           "status": "in-progress"
         },
         {
           "title": "角色生命周期事件（OnPCLogin 等）",
-          "status": "in-progress"
+          "status": "planned"
         },
         {
           "title": "NPC 生命周期事件（OnInit）",
-          "status": "in-progress"
+          "status": "done"
         },
         {
           "title": "区域触发事件（OnTouch）",
-          "status": "in-progress"
+          "status": "done"
         },
         {
           "title": "NPC 定时器（OnTimer）",
@@ -1133,7 +1137,7 @@
         },
         {
           "title": "时钟事件（OnMinute/OnHour）",
-          "status": "in-progress"
+          "status": "done"
         },
         {
           "title": "角色变量持久化接入（无前缀）",
@@ -1153,7 +1157,7 @@
         },
         {
           "title": "增量编译与热重载",
-          "status": "in-progress"
+          "status": "planned"
         }
       ]
     },
