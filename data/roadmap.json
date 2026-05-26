@@ -1,5 +1,5 @@
 {
-  "version": "0.28.0",
+  "version": "0.29.0",
   "groups": [
     {
       "name": "登录服务器",
@@ -30,6 +30,10 @@
         },
         {
           "title": "可信网络自动提权",
+          "status": "done"
+        },
+        {
+          "title": "服务器负载档位",
           "status": "done"
         },
         {
@@ -66,12 +70,8 @@
           "status": "done"
         },
         {
-          "title": "服务器负载显示",
-          "status": "planned"
-        },
-        {
-          "title": "可选出生地图",
-          "status": "planned"
+          "title": "可访问地图选择",
+          "status": "done"
         },
         {
           "title": "角色操作日志",
@@ -163,6 +163,43 @@
         {
           "title": "物品堆叠合并",
           "status": "done"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 道具租赁",
+      "items": [
+        {
+          "title": "脚本发放租赁物品",
+          "status": "done"
+        },
+        {
+          "title": "客户端倒计时下发",
+          "status": "done"
+        },
+        {
+          "title": "过期自动消除",
+          "status": "done"
+        },
+        {
+          "title": "重新登录恢复计时",
+          "status": "done"
+        },
+        {
+          "title": "NPC 商店拒绝出售租赁物品",
+          "status": "done"
+        },
+        {
+          "title": "交易拒绝租赁物品",
+          "status": "planned"
+        },
+        {
+          "title": "邮件附件拒绝租赁物品",
+          "status": "planned"
+        },
+        {
+          "title": "商城发放租赁物品",
+          "status": "planned"
         }
       ]
     },
@@ -269,11 +306,11 @@
         },
         {
           "title": "装备脚本执行",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "卡片脚本执行",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "随机选项脚本",
@@ -331,7 +368,7 @@
         },
         {
           "title": "GM 广播",
-          "status": "planned"
+          "status": "in-progress"
         }
       ]
     },
@@ -1039,7 +1076,7 @@
           "status": "done"
         },
         {
-          "title": "管理员指令集 120/313",
+          "title": "管理员指令集 119/313",
           "status": "in-progress"
         },
         {
@@ -1048,7 +1085,7 @@
         },
         {
           "title": "Bonus 系统",
-          "status": "planned"
+          "status": "in-progress"
         },
         {
           "title": "地图标记系统",
@@ -1116,7 +1153,7 @@
           "status": "done"
         },
         {
-          "title": "内置指令集 116/670",
+          "title": "内置指令集 253/670",
           "status": "in-progress"
         },
         {

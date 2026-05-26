@@ -1,5 +1,91 @@
 [
   {
+    "version": "0.29.0",
+    "date": "2026-05-26",
+    "changes": [
+      {
+        "type": "feature",
+        "description": "实现物品脚本执行: 消耗品 / 礼包使用后正常触发奖励与效果"
+      },
+      {
+        "type": "feature",
+        "description": "实现装备 / 卡片脚本: 穿戴后属性加成正确累加, 脱下后自动撤销"
+      },
+      {
+        "type": "feature",
+        "description": "实现装备 `OnEquip`, `OnUnEquip` 事件脚本: 穿戴与脱下时分别触发"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `bonus` 家族脚本指令: 装备 / 卡片提供附加属性加成"
+      },
+      {
+        "type": "feature",
+        "description": "实现服务器列表展示类型: 普通 / 维护 / 成人 / 付费 / P2P 五档可配置"
+      },
+      {
+        "type": "feature",
+        "description": "实现服务器最大同时在线人数门控: 满员时低权限玩家被拒"
+      },
+      {
+        "type": "feature",
+        "description": "实现服务器列表 `(New)` 标记: 让 GM 在客户端列表中标识新开服"
+      },
+      {
+        "type": "feature",
+        "description": "实现服务器列表在线人数颜色档位: 按阈值分四档下发供客户端渲染"
+      },
+      {
+        "type": "feature",
+        "description": "实现选择角色时备选主城选择: 角色所在地图已下线时弹出主城清单"
+      },
+      {
+        "type": "feature",
+        "description": "实现租赁物品过期清理: 登录扫描已过期道具并移除, 在线到期定时回收"
+      },
+      {
+        "type": "feature",
+        "description": "实现约 120 个脚本指令: 涵盖装备 / 物品 / 加点 / 状态判定 / 公会 / 单位 / 广播 / 音效等家族"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `SUNDAY` 至 `SATURDAY` 七个 weekday 脚本常量: 让 `gettime` 比较可读"
+      },
+      {
+        "type": "fix",
+        "description": "修复 `npctalk` 使用 `BC_SELF` 时退化为区域广播的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复 NPC 刷怪行用魔物 aegisname 字符串时整行被跳过的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复 `quests_17_2` 中 NPC 头顶冒泡丢失的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复 `announce` 家族使用整数十六进制色值时脚本编译失败的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复 `cmd(x),y;` 命令式调用被误判导致部分卡片脚本解析失败的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复脚本 `.@` 局部变量跨 `callfunc` / `callsub` 调用未隔离的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复 `getelementofarray` 按引用传参时被调函数无法写回元素的问题"
+      },
+      {
+        "type": "improve",
+        "description": "优化 `@refresh` 管理员指令: 补全重发当前地图天气特效给执行者"
+      }
+    ]
+  },
+  {
     "version": "0.28.0",
     "date": "2026-05-22",
     "changes": [
