@@ -1,5 +1,34 @@
 # 更新日志
 
+## v0.30.0 (2026-05-28)
+
+### 新增
+
+- 实现物品分组系统: NPC 脚本可按权重随机派发奖励
+- 实现物品分组类脚本指令: `groupranditem`, `getrandgroupitem`, `getgroupitem`
+- 实现物品随机选项系统: 装备生成时按权重附加随机词条
+- 实现物品随机选项类脚本指令: `randomoptgroup`, `getrandomoptinfo`
+- 实现带选项的物品发放脚本指令: `getitem2`, `getitembound2`
+- 实现 `@item2` 管理员指令: 创建带精炼 / 卡片 / 未鉴定 / 破损的物品
+- 实现自选礼包系统: 玩家使用礼包后弹出物品选择窗
+- 实现公会战开关脚本指令: `agitstart`, `agitend`, `agitstart2`, `agitend2`, `agitstart3`, `agitend3`
+- 实现装备槽位操作类脚本指令: `equip`, `unequip`, `delequip`, `breakequip`, `repair`, `repairall`, `nude`, `clearitem`
+- 实现装备状态查询类脚本指令: `isequipped`, `getitempos`, `searchitem`
+- 实现 UI 唤出类脚本指令: `openbank`, `openmail`, `openstorage`, `opendressroom`
+- 实现地图规则操作类脚本指令: `pvpon`, `pvpoff`, `gvgon`, `gvgoff`, `setcell`, `cleanmap`, `cleanarea`
+- 实现显示效果类脚本指令: `showdigit`, `showscript`, `viewpointmap`, `classchange`, `specialpopup`, `skilleffect`, `clear`
+- 实现 NPC 对话富文本类脚本指令: `mesitemlink`, `mesitemicon`, `meshyperlink`
+- 实现 `atcommand`, `charcommand` 脚本指令: 在脚本中转发 GM 命令
+- 实现 `itemheal`, `healap` 脚本指令: 向附加玩家直接补充 HP / SP 与 AP
+- 实现 `kick` 脚本指令: 将附加玩家踢出游戏
+- 实现 `setunittitle`, `getunittitle` 脚本指令: 单位称号读写
+- 实现 `getmapxy` 脚本指令: 查询实体所在地图与坐标
+- 实现 `doevent` 脚本指令: 向附加玩家派发 On 事件
+
+### 修复
+
+- 修复 `setpcblock`, `getpcblock` 通过 `char_id` 反查不到目标玩家的问题: 传入参数语义改为 `account_id`
+
 ## v0.29.0 (2026-05-26)
 
 ### 新增

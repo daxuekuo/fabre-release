@@ -1,5 +1,5 @@
 {
-  "version": "0.29.0",
+  "version": "0.30.0",
   "groups": [
     {
       "name": "登录服务器",
@@ -314,7 +314,7 @@
         },
         {
           "title": "随机选项脚本",
-          "status": "planned"
+          "status": "in-progress"
         }
       ]
     },
@@ -774,12 +774,12 @@
       "name": "地图服务器 · 道具组",
       "items": [
         {
-          "title": "道具箱（Item Group，随机开箱）",
-          "status": "planned"
+          "title": "物品分组（Item Group）",
+          "status": "done"
         },
         {
-          "title": "道具包裹（Item Packages，多重奖励）",
-          "status": "planned"
+          "title": "自选礼包（Item Packages）",
+          "status": "done"
         }
       ]
     },
@@ -1153,7 +1153,7 @@
           "status": "done"
         },
         {
-          "title": "内置指令集 253/670",
+          "title": "内置指令集 316/672",
           "status": "in-progress"
         },
         {
