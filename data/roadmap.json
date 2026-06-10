@@ -1,5 +1,5 @@
 {
-  "version": "0.30.0",
+  "version": "0.31.0",
   "groups": [
     {
       "name": "登录服务器",
@@ -158,6 +158,10 @@
         },
         {
           "title": "负重追踪",
+          "status": "done"
+        },
+        {
+          "title": "超重状态图标",
           "status": "done"
         },
         {
@@ -413,7 +417,7 @@
         },
         {
           "title": "经验分享计算",
-          "status": "planned"
+          "status": "in-progress"
         },
         {
           "title": "邀请屏蔽开关",
@@ -458,7 +462,7 @@
           "status": "done"
         },
         {
-          "title": "公会设置管理（职位/公告）",
+          "title": "公会设置（职位/公告）",
           "status": "done"
         },
         {
@@ -500,19 +504,19 @@
         },
         {
           "title": "主动追击 AI",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "魔物攻击判定",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "魔物技能",
-          "status": "planned"
+          "status": "in-progress"
         },
         {
           "title": "死亡与掉落",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "刷新点配置",
@@ -520,11 +524,19 @@
         },
         {
           "title": "魔物表情",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "魔物对白",
-          "status": "planned"
+          "status": "done"
+        },
+        {
+          "title": "行为模式",
+          "status": "done"
+        },
+        {
+          "title": "魔物定时重生",
+          "status": "done"
         }
       ]
     },
@@ -533,31 +545,51 @@
       "items": [
         {
           "title": "普攻伤害计算",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "属性克制",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "体型修正",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "暴击判定",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "闪避判定",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "受击硬直",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "复活系统",
-          "status": "planned"
+          "status": "done"
+        },
+        {
+          "title": "死亡结算",
+          "status": "done"
+        },
+        {
+          "title": "反射与吸血",
+          "status": "done"
+        },
+        {
+          "title": "弹药消耗",
+          "status": "done"
+        },
+        {
+          "title": "施法惊醒",
+          "status": "done"
+        },
+        {
+          "title": "伤害显示保护",
+          "status": "done"
         }
       ]
     },
@@ -570,7 +602,7 @@
         },
         {
           "title": "主动技能施放",
-          "status": "planned"
+          "status": "in-progress"
         },
         {
           "title": "地面技能",
@@ -578,11 +610,15 @@
         },
         {
           "title": "辅助技能",
-          "status": "planned"
+          "status": "in-progress"
         },
         {
           "title": "技能冷却",
           "status": "planned"
+        },
+        {
+          "title": "技能伤害结算",
+          "status": "done"
         }
       ]
     },
@@ -591,19 +627,43 @@
       "items": [
         {
           "title": "状态效果框架",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "状态施加与移除",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "状态持续时间与刷新",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "状态属性修正",
-          "status": "planned"
+          "status": "done"
+        },
+        {
+          "title": "抗性与免疫判定",
+          "status": "done"
+        },
+        {
+          "title": "状态图标显示",
+          "status": "done"
+        },
+        {
+          "title": "状态外观",
+          "status": "done"
+        },
+        {
+          "title": "下线后保留状态",
+          "status": "done"
+        },
+        {
+          "title": "隐身反伤等",
+          "status": "done"
+        },
+        {
+          "title": "触发状态",
+          "status": "done"
         }
       ]
     },
@@ -1060,7 +1120,7 @@
           "status": "done"
         },
         {
-          "title": "公式引擎（rhai）",
+          "title": "公式引擎",
           "status": "done"
         },
         {
@@ -1076,7 +1136,7 @@
           "status": "done"
         },
         {
-          "title": "管理员指令集 119/313",
+          "title": "管理员指令集 88/313",
           "status": "in-progress"
         },
         {
@@ -1129,10 +1189,6 @@
           "status": "done"
         },
         {
-          "title": "bonus_script 框架",
-          "status": "done"
-        },
-        {
           "title": "编译错误诊断",
           "status": "done"
         },
@@ -1153,11 +1209,11 @@
           "status": "done"
         },
         {
-          "title": "内置指令集 316/672",
+          "title": "内置指令集 317/672",
           "status": "in-progress"
         },
         {
-          "title": "角色生命周期事件（OnPCLogin 等）",
+          "title": "角色生命周期事件（OnPCLogin）",
           "status": "planned"
         },
         {
@@ -1186,10 +1242,6 @@
         },
         {
           "title": "全局变量持久化接入（`$` / `$@`）",
-          "status": "done"
-        },
-        {
-          "title": "goto / continue 语法",
           "status": "done"
         },
         {

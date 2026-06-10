@@ -1,5 +1,48 @@
 # 更新日志
 
+## v0.31.0 (2026-06-10)
+
+### 新增
+
+- 实现战斗系统: 玩家可攻击魔物, 含命中 / 暴击 / 属性克制 / 防御减伤与伤害结算
+- 实现战斗公式脚本 `db/formulas/battle.rhai`: 命中 / 暴击 / 防御扣减等公式可直接调整
+- 实现 `[battle.*]` 配置段: 约 420 个配置项覆盖战斗 / 技能 / 掉落 / 经验 / 组队 / 魔物 AI
+- 实现属性克制表 `db/attr_fix.yml`: 调整各属性间的伤害倍率
+- 实现魔物战斗 AI: 索敌 / 追击 / 记仇 / 脱战 / 主从召唤与技能施放
+- 加载魔物技能数据库 `db/mob_skill_db.yml`: 控制魔物施放技能的时机与概率 (技能效果后续版本逐个实装)
+- 实现魔物喊话: 战斗中按 `db/mob_chat_db.yml` 配置喊话
+- 实现随机魔物召唤组: 枯树枝等道具的随机魔物池
+- 实现魔物召唤与单位控制类脚本指令: `monster`, `areamonster`, `getrandmobid`, `mob_setidleevent`, `unitkill`, `unitskilluseid`
+- 实现魔物死亡结算: 经验获得 / 升级判定 / 物品掉落与 MVP 奖励
+- 实现 MVP 墓碑: MVP 死亡后原地生成墓碑, 可用 `notomb` 地图标记禁用
+- 实现等级差惩罚: 玩家与魔物等级差影响经验与掉落倍率 (Renewal)
+- 实现玩家死亡掉落与拾取保护: 骨头掉落 / 地面物品归属保护, 掉落可经 `item_auto_get` 直入背包
+- 实现 `getexp` 脚本指令: 向玩家发放基础 / 职业经验
+- 实现 `@killmonster2` 管理员指令: 清除地图魔物且不产生掉落
+- 实现状态变化系统: 千余个 buff / debuff 定义, 含图标 / 持续时间与属性修正
+- 实现自然恢复: HP / SP 随时间自动恢复, 受负重与移动状态影响
+- 实现装备 Bonus 系统: 装备 / 卡片脚本的属性加成在角色属性中生效
+- 实现 Bonus 类脚本指令: `bonus2` 至 `bonus5`, `autobonus` 系列, `bonus_script` 系列, 支持技能名参数
+- 实现 Bonus 调试类脚本指令: `enumbonus`, `enumautobonus`, `enumbonusscript`, `enumbonusbysource`
+- 实现 `@bonusinfo`, `@bonustrace` 管理员指令: 查看与追踪玩家 bonus 构成来源
+- 实现公会升级与公会技能系统: 经验自动缴纳 / 升级 / 技能点分配与技能树 (技能效果后续版本提供)
+- 实现 `@guildexp`, `@guildlvup`, `@guildskill` 管理员指令: 管理公会等级与技能
+- 实现 KS 保护: 防抢怪判定与提示, 支持自身 / 队伍 / 公会三种模式
+- 实现 `@ksprotection`, `@allowks` 管理员指令与 `allowks` 地图标记: 管理 KS 保护
+- 实现地图标记战斗类标记: `gvg_castle`, `gvg_dungeon`, `gvg_te`, `gvg_te_castle`, `battleground`
+- 实现地图标记限制类标记: `nobranch`, `noteleport`, `monster_noteleport`, `hidemobhpbar`
+- 实现 `@heal`, `@kill`, `@alive` 管理员指令: 恢复 / 杀死 / 复活目标玩家
+- 实现 `getpetinfo` 脚本指令: 查询宠物信息
+- 实现 `basicskillcheck` 脚本指令: 查询是否开启基本技能检查
+
+### 修复
+
+- 修复玩家与魔物行走时客户端滑步 / 位置回跳的问题
+
+### 优化
+
+- 优化 `@killmonster` 管理员指令 (不兼容变更): 清除的魔物现在正常掉落, 参数由掉落标记改为地图名
+
 ## v0.30.0 (2026-05-28)
 
 ### 新增
