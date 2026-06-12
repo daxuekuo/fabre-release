@@ -1,5 +1,5 @@
 {
-  "version": "0.31.0",
+  "version": "0.32.0",
   "groups": [
     {
       "name": "登录服务器",
@@ -33,7 +33,7 @@
           "status": "done"
         },
         {
-          "title": "服务器负载档位",
+          "title": "线路拥挤度显示",
           "status": "done"
         },
         {
@@ -70,7 +70,7 @@
           "status": "done"
         },
         {
-          "title": "可访问地图选择",
+          "title": "地图不可用备选主城",
           "status": "done"
         },
         {
@@ -101,6 +101,14 @@
         {
           "title": "方向变更",
           "status": "done"
+        },
+        {
+          "title": "坐下与站立",
+          "status": "done"
+        },
+        {
+          "title": "记忆传送点",
+          "status": "done"
         }
       ]
     },
@@ -113,6 +121,10 @@
         },
         {
           "title": "经验值显示",
+          "status": "done"
+        },
+        {
+          "title": "职业转职",
           "status": "done"
         },
         {
@@ -154,6 +166,10 @@
         },
         {
           "title": "物品丢弃",
+          "status": "done"
+        },
+        {
+          "title": "道具使用",
           "status": "done"
         },
         {
@@ -309,6 +325,10 @@
           "status": "planned"
         },
         {
+          "title": "装备鉴定",
+          "status": "planned"
+        },
+        {
           "title": "装备脚本执行",
           "status": "done"
         },
@@ -416,8 +436,8 @@
           "status": "done"
         },
         {
-          "title": "经验分享计算",
-          "status": "in-progress"
+          "title": "经验共享计算",
+          "status": "done"
         },
         {
           "title": "邀请屏蔽开关",
@@ -584,7 +604,7 @@
           "status": "done"
         },
         {
-          "title": "施法惊醒",
+          "title": "施法感知",
           "status": "done"
         },
         {
@@ -658,11 +678,11 @@
           "status": "done"
         },
         {
-          "title": "隐身反伤等",
+          "title": "隐身与反伤状态",
           "status": "done"
         },
         {
-          "title": "触发状态",
+          "title": "触发型状态",
           "status": "done"
         }
       ]
@@ -844,7 +864,7 @@
       ]
     },
     {
-      "name": "地图服务器 · SE 道具商城",
+      "name": "地图服务器 · 道具商城",
       "items": [
         {
           "title": "商城界面",
@@ -933,7 +953,7 @@
           "status": "planned"
         },
         {
-          "title": "成就联动条件求值",
+          "title": "成就联动条件判定",
           "status": "planned"
         }
       ]
@@ -1008,15 +1028,7 @@
           "status": "done"
         },
         {
-          "title": "多货币以物易物商店",
-          "status": "done"
-        },
-        {
           "title": "商店宠物蛋买卖",
-          "status": "done"
-        },
-        {
-          "title": "商店开张公告（itemshop / pointshop）",
           "status": "done"
         },
         {
@@ -1093,6 +1105,58 @@
         {
           "title": "天气特效",
           "status": "done"
+        },
+        {
+          "title": "快捷键保存",
+          "status": "done"
+        },
+        {
+          "title": "银行系统",
+          "status": "planned"
+        },
+        {
+          "title": "拍卖行",
+          "status": "planned"
+        },
+        {
+          "title": "结婚系统",
+          "status": "planned"
+        },
+        {
+          "title": "领养系统",
+          "status": "planned"
+        },
+        {
+          "title": "决斗系统",
+          "status": "planned"
+        },
+        {
+          "title": "坐骑系统",
+          "status": "planned"
+        },
+        {
+          "title": "猎鹰与战狼",
+          "status": "planned"
+        },
+        {
+          "title": "名声排名",
+          "status": "planned"
+        },
+        {
+          "title": "造型师",
+          "status": "planned"
+        },
+        {
+          "title": "乐透大转盘",
+          "status": "planned"
+        },
+        {
+          "title": "VIP 系统",
+          "status": "planned"
+        },
+        {
+          "title": "反外挂验证码",
+          "status": "planned"
         }
       ]
     },
@@ -1120,6 +1184,10 @@
           "status": "done"
         },
         {
+          "title": "游戏日志（拾取/交易）",
+          "status": "planned"
+        },
+        {
           "title": "公式引擎",
           "status": "done"
         },
@@ -1128,7 +1196,7 @@
           "status": "done"
         },
         {
-          "title": "GAT 地图文件读取",
+          "title": "地图地形读取（GAT）",
           "status": "done"
         },
         {
@@ -1136,7 +1204,7 @@
           "status": "done"
         },
         {
-          "title": "管理员指令集 88/313",
+          "title": "管理员指令集 93/313",
           "status": "in-progress"
         },
         {
@@ -1145,14 +1213,14 @@
         },
         {
           "title": "Bonus 系统",
-          "status": "in-progress"
+          "status": "done"
         },
         {
           "title": "地图标记系统",
           "status": "done"
         },
         {
-          "title": "变量表体系",
+          "title": "变量存储体系",
           "status": "done"
         }
       ]
@@ -1185,7 +1253,7 @@
           "status": "done"
         },
         {
-          "title": "死循环熔断",
+          "title": "死循环保护",
           "status": "done"
         },
         {
@@ -1201,7 +1269,7 @@
           "status": "done"
         },
         {
-          "title": "兼容性覆盖率统计",
+          "title": "rAthena 兼容覆盖率统计",
           "status": "done"
         },
         {
@@ -1209,7 +1277,7 @@
           "status": "done"
         },
         {
-          "title": "内置指令集 317/672",
+          "title": "内置指令集 338/672",
           "status": "in-progress"
         },
         {

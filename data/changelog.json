@@ -1,5 +1,71 @@
 [
   {
+    "version": "0.32.0",
+    "date": "2026-06-12",
+    "changes": [
+      {
+        "type": "feature",
+        "description": "实现组队经验共享: 队伍成员协作击杀魔物时分配基础与职业经验"
+      },
+      {
+        "type": "feature",
+        "description": "实现组队经验加成: 多人组队按在场人数额外提升经验"
+      },
+      {
+        "type": "feature",
+        "description": "实现组队经验等级惩罚: 玩家与魔物等级差过大时削减经验"
+      },
+      {
+        "type": "feature",
+        "description": "实现组队等级差限制: 成员等级差超过上限时自动关闭经验共享"
+      },
+      {
+        "type": "feature",
+        "description": "实现组队经验配置项: `party_share_level`, `party_even_share_bonus`"
+      },
+      {
+        "type": "feature",
+        "description": "实现组队道具分配: 队伍拾取的道具按轮询或随机规则自动分给成员"
+      },
+      {
+        "type": "feature",
+        "description": "实现组队道具分配公告: 分配道具时向队伍展示领取者与道具"
+      },
+      {
+        "type": "feature",
+        "description": "实现组队共享拾取: 归属保护期内队友可共同拾取掉落道具"
+      },
+      {
+        "type": "feature",
+        "description": "实现组队道具分配配置项: `party_item_share_type`, `show_party_share_picker`, `show_picker_item_type`"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `nobaseexp`, `nojobexp` 地图标记: 禁止当前地图获得基础 / 职业经验"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `jexp` 地图标记: 设置当前地图职业经验倍率"
+      },
+      {
+        "type": "feature",
+        "description": "实现玩家闲置判定: 长时间无操作的玩家不参与组队经验均分与自动拾取"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `checkidle`, `checkidlehom`, `checkidlemer` 脚本指令: 查询玩家闲置时长"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `idle_no_share`, `idle_no_autoloot` 配置项: 设置闲置玩家不参与经验均分与自动拾取的阈值"
+      },
+      {
+        "type": "fix",
+        "description": "修复武器与防具的道具类型互相颠倒的问题"
+      }
+    ]
+  },
+  {
     "version": "0.31.0",
     "date": "2026-06-10",
     "changes": [
