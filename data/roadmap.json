@@ -1,5 +1,5 @@
 {
-  "version": "0.32.0",
+  "version": "0.33.0",
   "groups": [
     {
       "name": "登录服务器",
@@ -211,15 +211,19 @@
         },
         {
           "title": "交易拒绝租赁物品",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "邮件附件拒绝租赁物品",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "商城发放租赁物品",
-          "status": "planned"
+          "status": "done"
+        },
+        {
+          "title": "公会仓库拒绝租赁物品",
+          "status": "done"
         }
       ]
     },
