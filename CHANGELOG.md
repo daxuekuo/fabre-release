@@ -1,5 +1,35 @@
 # 更新日志
 
+## v0.34.0 (2026-06-14)
+
+### 新增
+
+- 实现掉落地图标记: `noloot`, `nomobloot`, `nomvploot`
+- 实现传送限制地图标记: `noreturn`, `nowarp`, `nowarpto`, `nogo`
+- 实现死亡惩罚地图标记: `nopenalty`, `noexppenalty`, `nozenypenalty`
+- 实现 `noexp` 地图标记: 禁止当前地图获得基础 / 职业经验
+- 实现限制地图标记: `nocommand`, `nopetcapture`
+- 实现 `@kami`, `@kamib`, `@kamic`, `@lkami` 管理员指令: 发送不带角色名的横幅广播
+- 实现 `@broadcast`, `@localbroadcast` 管理员指令: 发送带角色名的横幅广播
+- 实现 `@me` 管理员指令: 在头顶显示动作消息
+- 实现 `@request` 管理员指令: 向在线 GM 发送申诉消息
+- 实现 `@dropall` 管理员指令: 按类型过滤并丢弃背包物品
+- 实现 `@showexp`, `@showzeny` 管理员指令: 显示经验与 Zeny 变动明细
+- 实现 `@item`, `@item2` 管理员指令的物品名称参数
+- 实现 `getpartymember` 脚本指令: 查询队伍成员
+- 实现 `party_addmember`, `party_delmember` 脚本指令: 管理队伍成员
+- 实现 `party_changeleader`, `party_changeoption` 脚本指令: 设置队长与分配
+- 实现 `party_destroy` 脚本指令: 解散队伍
+- 实现 `warpparty` 脚本指令: 批量传送队伍成员
+
+### 修复
+
+- 修复丢弃已装备物品时未先脱下装备的问题
+
+### 优化
+
+- 优化 `noteleport` 地图标记: 接入玩家随机传送与 `warpparty` 判定
+
 ## v0.33.0 (2026-06-13)
 
 ### 新增

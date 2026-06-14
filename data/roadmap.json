@@ -1,5 +1,5 @@
 {
-  "version": "0.33.0",
+  "version": "0.34.0",
   "groups": [
     {
       "name": "登录服务器",
@@ -396,7 +396,7 @@
         },
         {
           "title": "GM 广播",
-          "status": "in-progress"
+          "status": "done"
         }
       ]
     },
