@@ -1,5 +1,5 @@
 {
-  "version": "0.34.0",
+  "version": "0.35.0",
   "groups": [
     {
       "name": "登录服务器",
@@ -149,7 +149,7 @@
         },
         {
           "title": "职业加成（Job Bonus）",
-          "status": "planned"
+          "status": "done"
         }
       ]
     },
@@ -1208,7 +1208,7 @@
           "status": "done"
         },
         {
-          "title": "管理员指令集 93/313",
+          "title": "管理员指令集 118/290",
           "status": "in-progress"
         },
         {
@@ -1281,7 +1281,7 @@
           "status": "done"
         },
         {
-          "title": "内置指令集 338/672",
+          "title": "内置指令集 321/605",
           "status": "in-progress"
         },
         {
