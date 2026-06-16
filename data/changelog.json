@@ -1,5 +1,71 @@
 [
   {
+    "version": "0.36.0",
+    "date": "2026-06-16",
+    "changes": [
+      {
+        "type": "feature",
+        "description": "实现道具商城中的特卖系统"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@limitedsale` 管理员指令: 打开道具商城特卖管理工具"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `limitedsale_admin_timezone` 配置项: 设置特卖租赁时间解释时区"
+      },
+      {
+        "type": "feature",
+        "description": "实现经典精炼值增减: 管理装备精炼上升 / 下降 / 失败结果"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@refine` 管理员指令: 批量调整已装备物品精炼值"
+      },
+      {
+        "type": "feature",
+        "description": "实现精炼脚本指令: `successrefitem`, `failedrefitem`, `downrefitem`"
+      },
+      {
+        "type": "feature",
+        "description": "实现宠物自动喂食: 饱食度到阈值后自动消耗宠物食物"
+      },
+      {
+        "type": "feature",
+        "description": "实现宠物自动喂食配置项: `pet_autofeed`, `pet_autofeed_rate`"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `autofeed_always` 配置项: 控制进图 / 换图时同步状态"
+      },
+      {
+        "type": "feature",
+        "description": "实现宠物喂食倍率配置项: `friendly_rate`, `hungry_delay_rate`"
+      },
+      {
+        "type": "feature",
+        "description": "实现公会经验结算: 玩家贡献经验时同步累积公会经验"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `guild_exp_rate` 配置项: 控制贡献经验转为公会经验的倍率"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `guildgetexp` 脚本指令: 由 NPC 脚本增加公会经验"
+      },
+      {
+        "type": "fix",
+        "description": "修复角色战斗面板中精炼 / MATK 等数值偏离预期的问题"
+      },
+      {
+        "type": "improve",
+        "description": "优化服务端版本提示: 登录提示仅显示在聊天窗口"
+      }
+    ]
+  },
+  {
     "version": "0.35.0",
     "date": "2026-06-15",
     "changes": [
